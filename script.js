@@ -54,6 +54,10 @@ function sendMessage() {
     {
     reply = "Prasad Sir is a 22-year-old engineering student specializing in AI & DS. He is currently studying at Babasaheb Naik College of Engineering in Pusad and hails from Deoli Taluka in Wardha district.";
     }
+     else if(msg.toLowerCase().includes("java"))
+    {
+    reply = "java is a popular programming language.";
+    }
 
     let botDiv = document.createElement("div");
 
