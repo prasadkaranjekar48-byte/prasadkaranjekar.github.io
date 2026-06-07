@@ -58,7 +58,11 @@ function sendMessage() {
     {
     reply = "java is a popular programming language.";
     }
-
+     else if(msg.toLowerCase().includes("c++"))
+    {
+    reply = "c++ is a popular programming language.";
+    }
+  
     let botDiv = document.createElement("div");
 
     botDiv.className = "bot-message";
